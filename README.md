@@ -37,15 +37,15 @@
 
 3. To execute one-time commands (create, list, delete topics)
 
-``` .\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --create --topic bearcat-messages ```
+``` .\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --create --topic novels-list ```
 
 ``` .\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --list ```
 
 4. To run Kafka Producer
 
-``` .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic bearcat-messages ```
+``` .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic novels-list ```
 
 5. To run Kafka Consumer
 
-``` .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic bearcat-messages --from-beginning ```
+``` .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic novels-list --from-beginning ```
 
