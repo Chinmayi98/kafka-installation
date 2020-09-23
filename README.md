@@ -5,7 +5,7 @@
 1. Firstly, install or upgrade Maven and OpenJDK using the following commands
 - choco install maven -y
 - choco install openjdk -y
-- refeshenv
+- refreshenv
 - choco list -l
 
 2. Now, go to [Kafka](https://kafka.apache.org/quickstart) and install the current source tgz file to C:\
